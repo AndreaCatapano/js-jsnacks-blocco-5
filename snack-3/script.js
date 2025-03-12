@@ -4,5 +4,5 @@ const numbers = [2, 8, 4, 7, 2, 87];
 // Risultato: [3, 9, 5, 8, 3, 88]
 
 
-numbersPlusOne = numbers.map(number => number + 1);
+const numbersPlusOne = numbers.map(number => number + 1);
 console.log(numbersPlusOne)

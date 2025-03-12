@@ -9,6 +9,5 @@ const posts = [
 // Risultato: ['Marco', 'Luca', 'Fabrizio', 'Enrico']
 
 
-postsAuthor = posts.map(post => post.author);
-
+const postsAuthor = posts.map(post => post.author);
 console.log(postsAuthor);
